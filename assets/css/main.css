@@ -123,18 +123,6 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 480px) {
-		
-		#header {
-			padding: 1.5rem 0;
-		}
-		
-		#header .logo {
-			width: 6.1rem;
-			height: 6.1rem;
-			line-height: 10rem;
-			border: solid 1px #ffffff;
-			border-radius: 100%;
-		}
 
 		html, body {
 			min-width: 320px;
@@ -1347,9 +1335,9 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 6.1rem;
-			height: 6.1rem;
-			line-height: 10rem;
+			width: 5.5rem;
+			height: 5.5rem;
+			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
@@ -1507,7 +1495,7 @@ input, select, textarea {
 				}
 
 			#header .content .inner {
-				padding: 2.5rem 1rem;
+				padding: 2.5rem 1rem;	
 			}
 
 			#header .content p {
@@ -1520,6 +1508,14 @@ input, select, textarea {
 
 			#header {
 				padding: 1.5rem 0;
+			}
+			
+			#header .logo {
+				width: 6.1rem;
+				height: 6.1rem;
+				line-height: 10rem;
+				border: solid 1px #ffffff;
+				border-radius: 100%;
 			}
 
 				#header .content .inner {
